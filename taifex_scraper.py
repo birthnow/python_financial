@@ -27,4 +27,3 @@ data = re.json()['RtData']['QuoteList']
 for i in data:
     print(i['DispCName'])
     print(i['CBestBidPrice'])
-
